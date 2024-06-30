@@ -74,6 +74,7 @@ const startTimer = () => {
     }, 1000);
 };
 
+
 startButton.addEventListener('click', () => {
     if (!userSelectedDate) {
         return;
